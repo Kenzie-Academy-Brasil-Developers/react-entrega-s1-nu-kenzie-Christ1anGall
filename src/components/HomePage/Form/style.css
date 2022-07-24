@@ -110,6 +110,12 @@ input::-webkit-inner-spin-button {
   border-radius: 8px;
   margin-top: 1.25rem;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: "Inter";
+  font-style: normal;
+  color: #ffff;
 }
 .FormButton:hover {
   background: rgba(227, 73, 129, 1);
