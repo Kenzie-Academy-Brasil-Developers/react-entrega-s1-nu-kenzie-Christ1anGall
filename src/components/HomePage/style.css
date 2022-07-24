@@ -1,0 +1,8 @@
+.App-headerWhite {
+}
+.Container {
+  margin-top: 10.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

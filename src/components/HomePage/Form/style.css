@@ -1,0 +1,112 @@
+.FormContainer {
+  height: 24rem;
+  width: 18rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  margin: 1rem;
+  border: 2px solid #e9ecef;
+  border-radius: 4px;
+}
+
+.FormContainerDescription {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #212529;
+}
+.FormContainerDescriptionInput {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  padding: 0px 16px;
+  height: 3rem;
+}
+
+.FormContainerDescriptionExample {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  color: #868e96;
+}
+
+.FormInformationContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.FormInformationContainerDescriptionValue,
+.FormInformationContainerDescriptionType {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  align-items: left;
+}
+
+.FormInformationContainerDescriptionValue > div {
+  display: flex;
+  flex-direction: row;
+  margin-right: 2rem;
+}
+.FormInformationContainerDescriptionValue > div > div {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0px 30px 0px -30px;
+}
+.FormInformationContainerDescriptionValueInput {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  height: 3rem;
+  padding: 0px 16px;
+  max-width: 8rem;
+}
+/* https://acervolima.com/como-desativar-as-setas-da-entrada-numerica/ */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.FormInformationContainerDescriptionInput {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  height: 3rem;
+  padding: 0px 16px;
+  max-width: 8rem;
+}
+
+.FormButton {
+  background: rgba(253, 55, 126, 1);
+  padding: 13px 20px;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+  margin-top: 1.25rem;
+}

@@ -1,0 +1,45 @@
+.ContainerTotal {
+  margin: 1rem;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  width: 18rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  padding: 1.5rem 1.5rem;
+}
+.ContainerTotal > div {
+}
+.ContainerTotal > h4 {
+  margin: 0;
+}
+.ContainerTotal > div > h4 {
+  margin: 0 0 0.5rem 0;
+}
+.ContainerTotal > div > h6 {
+  margin: 0;
+}
+.textTotal {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #212529;
+}
+.textDescription {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+}
+.textValue {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #fd377e;
+}

@@ -1,0 +1,29 @@
+.NavBarContainer {
+  position: fixed;
+  top: 0;
+  display: flex;
+  height: 5rem;
+  width: 100vw;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  align-items: center;
+  background: #f8f9fa;
+  box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+  border: none;
+  gap: 20px;
+}
+
+.NavBarContainerButton {
+  font-family: "Nunito", sans-serif;
+  background: rgba(233, 236, 239, 1);
+  border: 1.4px solid #e9ecef;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #343a40;
+  width: 64px;
+  height: 40px;
+  cursor: pointer;
+}

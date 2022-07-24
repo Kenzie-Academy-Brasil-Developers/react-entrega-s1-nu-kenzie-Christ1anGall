@@ -1,0 +1,58 @@
+.App-headerBlack {
+  background: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.HomePageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Nunito", sans-serif;
+  align-items: center;
+  color: #fff;
+  padding: 40px;
+}
+
+.textGroup {
+  width: 20rem;
+  text-align: left;
+}
+
+.textGroupH2 {
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 48px;
+}
+.textGroupP {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+}
+.textGroupButton {
+  color: white;
+  background: #fd377e;
+  padding: 13px 20px;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  width: 20rem;
+  height: 3rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.textGroupButton:hover {
+  background: #e34981;
+}
+
+.HomePageImg {
+  height: 25rem;
+  width: 25rem;
+}
