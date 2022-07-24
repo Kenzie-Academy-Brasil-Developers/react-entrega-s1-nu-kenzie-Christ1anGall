@@ -109,6 +109,10 @@ input::-webkit-inner-spin-button {
   border: 2px solid #fd377e;
   border-radius: 8px;
   margin-top: 1.25rem;
+  cursor: pointer;
+}
+.FormButton:hover {
+  background: rgba(227, 73, 129, 1);
 }
 
 @media only screen and (min-width: 800px) {

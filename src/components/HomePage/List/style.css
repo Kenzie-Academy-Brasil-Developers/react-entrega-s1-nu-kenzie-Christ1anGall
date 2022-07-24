@@ -36,10 +36,18 @@
   font-size: 14px;
   line-height: 19px;
 }
+.resumeFinbtn:hover {
+  background: #343a40;
+  color: #f8f9fa;
+}
 .resumeFinbtnAll {
   color: #ffffff;
   background: #fd377e;
   border: 1.4px solid #fd377e;
+}
+
+.resumeFinbtnAll:hover {
+  background: rgba(227, 73, 129, 1);
 }
 .resumeFinEmpty {
   font-weight: 700;
