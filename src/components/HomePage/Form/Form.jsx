@@ -36,6 +36,7 @@ const Form = ({ SetEntry }) => {
               className="FormInformationContainerDescriptionValueInput"
               type="number"
               placeholder="1"
+              step="0.010"
               required
             />
             <div> R$</div>

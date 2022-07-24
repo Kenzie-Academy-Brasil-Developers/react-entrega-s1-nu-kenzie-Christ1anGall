@@ -31,7 +31,9 @@ const TotalMoney = ({ entry }) => {
         <h4 className="textTotal">Valor Total:</h4>
         <h6 className="textDescription">O valor se refere ao saldo</h6>
       </div>
-      <h4 className="textValue">R$ {valorEntradas - valorSaidas}</h4>
+      <h4 className="textValue">
+        $ {(valorEntradas - valorSaidas).toFixed(2)}
+      </h4>
     </section>
   );
 };

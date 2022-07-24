@@ -6,3 +6,14 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media only screen and (min-width: 800px) {
+  .App-headerWhite {
+    display: flex;
+    justify-content: center;
+  }
+  .Container {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}

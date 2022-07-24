@@ -65,3 +65,11 @@ ul {
   height: 1.2rem;
   width: 1.2rem;
 }
+
+@media only screen and (min-width: 800px) {
+  .CardContainer {
+    width: 32rem;
+    height: 4.5rem;
+    margin: 1rem 2rem;
+  }
+}

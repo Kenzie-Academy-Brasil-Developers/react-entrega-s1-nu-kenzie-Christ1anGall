@@ -18,7 +18,9 @@ const Card = ({
         <h3 className="CardType">{type}</h3>
       </div>
       <section className="CardSection">
-        <h2 className="CardValue">{value}</h2>
+        <h2 className="CardValue">
+          R$ {value.toLocaleString("pt-BR", { minimumFractionDigits: 2 })}
+        </h2>
         <button
           className="CardButton"
           onClick={() => {
