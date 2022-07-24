@@ -14,7 +14,7 @@
   font-family: "Nunito", sans-serif;
   align-items: center;
   color: #fff;
-  padding: 40px;
+  padding: 2rem;
 }
 
 .textGroup {
@@ -53,8 +53,8 @@
 }
 
 .HomePageImg {
-  height: 25rem;
-  width: 25rem;
+  height: 20rem;
+  width: 20rem;
 }
 
 @media only screen and (min-width: 800px) {

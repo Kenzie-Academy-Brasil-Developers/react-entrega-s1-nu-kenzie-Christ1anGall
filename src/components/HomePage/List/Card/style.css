@@ -24,6 +24,7 @@ ul {
   font-style: normal;
   padding: 1rem;
   margin-top: 2rem;
+  width: 20rem;
 }
 .CardDescription {
   margin: 0;
@@ -31,6 +32,9 @@ ul {
   font-size: 16px;
   line-height: 30px;
   color: #212529;
+  max-width: 10rem;
+  overflow: auto;
+  overflow-y: hidden;
 }
 .CardType {
   margin: 0;
@@ -56,6 +60,9 @@ ul {
   font-size: 12px;
   line-height: 22px;
   color: #212529;
+  max-width: 4rem;
+  overflow: auto;
+  overflow-y: hidden;
 }
 .CardButton {
   background: #e9ecef;
@@ -71,5 +78,11 @@ ul {
     width: 32rem;
     height: 4.5rem;
     margin: 1rem 2rem;
+  }
+  .CardDescription {
+    max-width: 15rem;
+  }
+  .CardValue {
+    max-width: 12rem;
   }
 }
